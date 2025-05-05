@@ -19,7 +19,7 @@ using namespace libtraci;
 char* light_state = nullptr;
 int* edges_state = nullptr;
 
-std::vector<std::string> EdgesIDs = {"-E3", "-E4", "E2"};
+std::vector<std::string> EdgesIDs = {"-E3", "E2", "-E4"};
 
 void createSharedMemory() {
     // Mémoire pour le feu
